@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Exercicio2": {
+      "commandName": "Project",
+      "commandLineArgs": "--criptografia \"Vigenere\" --texto \"MOQRBMXGM\" --acao \"Descriptografar\" --chave \"gui\"  "
+    }
+  }
+}

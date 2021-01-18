@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryLeak", "MemoryLeak\MemoryLeak.csproj", "{C28073FF-4326-4453-943B-8ECE6CF9AC63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C28073FF-4326-4453-943B-8ECE6CF9AC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28073FF-4326-4453-943B-8ECE6CF9AC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28073FF-4326-4453-943B-8ECE6CF9AC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28073FF-4326-4453-943B-8ECE6CF9AC63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ECD2CA4-5095-434F-9C2B-770470F3CB8B}
+	EndGlobalSection
+EndGlobal

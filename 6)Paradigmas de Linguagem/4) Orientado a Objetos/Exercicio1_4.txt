@@ -1,0 +1,22 @@
+1) Todas as classes em C# herdam de uma classe "base" chamada Object.
+
+4)
+Os modificadores de acesso em C# são:
+-Public ---> Métodos/Propriedades são acessiveis e alteraveis em qualquer classe, seja ela herdada ou até um "Program"
+-Protected ---> Métodos/Propriedades são acessiveis e alteráveis apenas na classe em que foram declaradas, ou nas classes
+herdeiras desta.
+-Private ---> Métodos/Propriedades são acessiveis e alteráveis apenas na classe em que foi declarada, ou seja, "Program"
+ou classes herdeiras NÃO podem acessar ou alterar tais itens.
+
+Duvidas:
+-Internal ---> Métodos/Propriedades são acessiveis e alteráveis somente em arquivos do mesmo namespace. É o 
+modificador de acesso "básico". Caso não seja especificado, ele sera um internal.
+~qual a diferença de um internal e um public?~ No public poderia acessar idependente do namespace
+
+-Protected Internal ---> Métodos/Propriedades são acessiveis e alteraveis somente no namespace atual, ou, se for em outro 
+namespace, o tipo deve herdar da classe em questão.
+~Meio confuso~
+
+-Private protected ---> Métodos/Propriedades são acessiveis e alteraveis apenas no msm namespace, msm classe, ou herança.
+!!!!!!!RESTRINGE AO NAMESPACE!!!!!!
+~Super confuso~

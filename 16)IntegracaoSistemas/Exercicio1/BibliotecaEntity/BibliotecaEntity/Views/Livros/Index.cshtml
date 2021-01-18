@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Exercicio1.Models.Livro>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<p>
+    <a asp-action="MassImport">Mass Import</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeLivro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Autor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ativo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeLivro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria.NomeCategoria)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Autor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ativo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdLivro">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdLivro">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdLivro">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+

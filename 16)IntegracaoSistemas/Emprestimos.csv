@@ -1,0 +1,4 @@
+IdEmprestimos,IdLivro,NomeLivro,IdCategoria,NomeCategoria,Ativo,Autor,Ativo,IdCliente,NomeCliente,Nascimento,Cadastro,Ativo,Emprestado,PrevisaoDevolucao,Devolucao
+2,1004,O Menino do Pijama Listrado,1003,Drama,True,Eu,True,1002,Guilherme Silva Sanches,9/29/2000 6:48:00 PM,8/30/2020 6:48:00 PM,True,9/11/2020 10:57:00 AM,9/18/2020 10:57:00 AM,9/14/2020 10:47:00 AM
+3,1004,O Menino do Pijama Listrado,1003,Drama,True,Eu,True,1002,Guilherme Silva Sanches,9/29/2000 6:48:00 PM,8/30/2020 6:48:00 PM,True,9/14/2020 10:47:00 AM,9/21/2020 10:47:00 AM,9/21/2020 12:05:00 PM
+10,1006,Hyrule Historia,1005,Enciclopédia,True,Eu,True,1002,Guilherme Silva Sanches,9/29/2000 6:48:00 PM,8/30/2020 6:48:00 PM,True,9/14/2020 12:00:00 AM,9/19/2020 12:00:00 AM,

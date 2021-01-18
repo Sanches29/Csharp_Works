@@ -1,0 +1,42 @@
+
+    [
+        {
+
+    
+    "TituloPergunta" : "2+2?",
+    "Alternativas" : [
+        "a) 5",
+        "b) 6",
+        "c) 4",
+        "d) 7",
+        "e) 1"
+    ],
+    "Resposta" : "C"
+},
+{
+    "TituloPergunta" : "Qual dessas palavras tem duas letras?",
+    "Alternativas" :[
+        "a) casa",
+        "b) escova",
+        "c) beleza",
+        "d) oi",
+        "e) computador"
+    ],
+    "Resposta":"D"
+
+},
+{
+    "TituloPergunta" : "Quantas vezes 96 cabe dentro de 1456?",
+    "Alternativas" :[
+        "a) 15",
+        "b) 16",
+        "c) 13",
+        "d) 14",
+        "e) 17"
+    ],
+    "Resposta":"A"
+
+}
+
+
+    ]

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEmprestimos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Emprestimos>
+    <IdEmprestimos>2</IdEmprestimos>
+    <Livro>
+      <IdLivro>1004</IdLivro>
+      <NomeLivro>O Menino do Pijama Listrado</NomeLivro>
+      <Categoria>
+        <IdCategoria>1003</IdCategoria>
+        <NomeCategoria>Drama</NomeCategoria>
+        <Ativo>true</Ativo>
+      </Categoria>
+      <Autor>Eu</Autor>
+      <Ativo>true</Ativo>
+    </Livro>
+    <Cliente>
+      <IdCliente>1002</IdCliente>
+      <NomeCliente>Guilherme Silva Sanches</NomeCliente>
+      <Nascimento>2000-09-29T18:48:00</Nascimento>
+      <Cadastro>2020-08-30T18:48:00</Cadastro>
+      <Ativo>true</Ativo>
+    </Cliente>
+    <Emprestado>2020-09-11T10:57:00</Emprestado>
+    <PrevisaoDevolucao>2020-09-18T10:57:00</PrevisaoDevolucao>
+    <Devolucao>2020-09-14T10:47:00</Devolucao>
+  </Emprestimos>
+  <Emprestimos>
+    <IdEmprestimos>3</IdEmprestimos>
+    <Livro>
+      <IdLivro>1004</IdLivro>
+      <NomeLivro>O Menino do Pijama Listrado</NomeLivro>
+      <Categoria>
+        <IdCategoria>1003</IdCategoria>
+        <NomeCategoria>Drama</NomeCategoria>
+        <Ativo>true</Ativo>
+      </Categoria>
+      <Autor>Eu</Autor>
+      <Ativo>true</Ativo>
+    </Livro>
+    <Cliente>
+      <IdCliente>1002</IdCliente>
+      <NomeCliente>Guilherme Silva Sanches</NomeCliente>
+      <Nascimento>2000-09-29T18:48:00</Nascimento>
+      <Cadastro>2020-08-30T18:48:00</Cadastro>
+      <Ativo>true</Ativo>
+    </Cliente>
+    <Emprestado>2020-09-14T10:47:00</Emprestado>
+    <PrevisaoDevolucao>2020-09-21T10:47:00</PrevisaoDevolucao>
+    <Devolucao>2020-09-21T12:05:00</Devolucao>
+  </Emprestimos>
+  <Emprestimos>
+    <IdEmprestimos>10</IdEmprestimos>
+    <Livro>
+      <IdLivro>1006</IdLivro>
+      <NomeLivro>Hyrule Historia</NomeLivro>
+      <Categoria>
+        <IdCategoria>1005</IdCategoria>
+        <NomeCategoria>Enciclopédia</NomeCategoria>
+        <Ativo>true</Ativo>
+      </Categoria>
+      <Autor>Eu</Autor>
+      <Ativo>true</Ativo>
+    </Livro>
+    <Cliente>
+      <IdCliente>1002</IdCliente>
+      <NomeCliente>Guilherme Silva Sanches</NomeCliente>
+      <Nascimento>2000-09-29T18:48:00</Nascimento>
+      <Cadastro>2020-08-30T18:48:00</Cadastro>
+      <Ativo>true</Ativo>
+    </Cliente>
+    <Emprestado>2020-09-14T00:00:00</Emprestado>
+    <PrevisaoDevolucao>2020-09-19T00:00:00</PrevisaoDevolucao>
+    <Devolucao xsi:nil="true" />
+  </Emprestimos>
+</ArrayOfEmprestimos>

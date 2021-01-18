@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Pergunta";
+}
+
+@{ var pergunta = ViewData["perguntaERespostas"];}
+<pre>@pergunta</pre>
+<br />
+
+@{Html.BeginForm("ValidarResposta", "QuizzMVC");}
+
+    <input type="radio" id="alta" name="alternativa" value="A" />
+    <label for="alta">a)</label>
+    <br />
+    <input type="radio" id="altb" name="alternativa" value="B" />
+    <label for="altb">b)</label>
+    <br />
+    <input type="radio" id="altc" name="alternativa" value="C" />
+    <label for="altc">c)</label>
+    <br />
+    <input type="radio" id="altd" name="alternativa" value="D" />
+    <label for="altd">d)</label>
+    <br />
+    <input type="radio" id="alte" name="alternativa" value="E" />
+    <label for="alte">e)</label>
+    <br />
+    <br />
+    <input type="submit" value="Continuar" />
+
+
+
